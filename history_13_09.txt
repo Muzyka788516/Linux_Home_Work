@@ -1,0 +1,55 @@
+   0 cd /home
+   1 mkdir animals
+   2 cd animals
+   3 mkdir dogs
+   4 mkdir cats
+   5 mkdir fish
+   6 cd dogs
+   7 touch pluto.txt
+   8 cd ..
+   9 cd cats
+  10 touch garfield.txt
+  11 cd ..
+  12 cd fish
+  13 touch nemo.txt
+  14 cd ..
+  15 tree
+  16 history->history_13_09.txt
+  17 history
+  18 history - >history_13_09.txt
+_____________________________________
+
+   0 pwd
+   1 cd /home/
+   2 mkdir /home/planets
+   3 ls
+   4 cd /opt
+   5 touch /opt merkurii.txt
+   6 touch /opt venera.txt
+   7 touch /opt mars.txt
+   8 touch /opt ypiter.txt
+   9 mv merkurii.txt venera.txt mars.txt ypiter.txt /home/planets/
+  10 tree
+  11 cd /home/
+  12 tree
+  13 history
+  14 history ->history_13_09.txt
+_______________________________________
+
+   0 pwd
+   1 cd /home
+   2 mkdir humans
+   3 cd ..
+   4 cd tmp
+   5 touch adam.txt
+   6 cp /tmp/adam.txt /home/humans/
+   7 touch eva.txt
+   8 mv /tmp/eva.txt /opt/
+   9 cd /opt/
+  10 mv /opt/eva.txt /home/humans/
+  11 cd /home/
+  12 tree
+  13 history
+  14 history ->history_13_09.txt
+
+
