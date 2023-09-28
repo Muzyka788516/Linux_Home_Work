@@ -1,0 +1,8 @@
+   0 pwd
+   1 date > File.txt
+   2 #cat File.txt 
+   3 history | tail -n 5 >> File.txt 
+   4 nano File.txt 
+   5 ps -ef | wc -1 awk '{print & 1 -1}' >> File.txt 
+   6 history
+   7 history - >history_28_09.txt
